@@ -1,0 +1,39 @@
+body {
+    background-color:#F5F5F5;    
+    color:#757575;
+}
+/* Убирает маркет в списках */
+.list {
+    list-style: none;
+}
+.logo {
+    color:#000000;
+    }
+.logo:hover {
+    color:#2196F3;
+}
+/* Цвет основного текста #212121 */
+/* Вторичый цвет текста #757575 */
+/* Цвет ссылок в футере rgba(255, 255, 255, 0.6)*/
+/* Цвет голубой ссылки в хедере и кнопки заказать #2196F3 */
+/* Цвет белых букв  #FFFFFF*/
+/* Первичный цвет фона #F5F5F5 */
+/* Вторичный цвет фона #F5F4FA */
+/* Цвет подвала #2F303A */
+.pre-logo {color:#2196F3;}
+/* site-nav */
+.site-nav .link {
+    color:#212121 ;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color:#2196F3;
+}
+/* Hero */
+.hero-title {
+    color:#FFFFFF;
+}
+/* Section */
+.section-title {
+    color:#212121;
+}
