@@ -1,6 +1,24 @@
+:root {
+   --headers-color: #212121;
+   --secondary-text-color: #757575;
+   --header-link-color: #2196F3;
+   --footer-link-color:rgba(255, 255, 255, 0.6);
+   --white-simbols-color:#FFFFFF;
+   --primery-background-color:#F5F5F5;
+   --secondary-background-color:#F5F4FA;
+   --footer-background-color:#2F303A;
+}
+/* Цвет заголовков - основного текста #212121 */
+/* Вторичый цвет основного текста #757575 */
+/* Цвет ссылок в футере rgba(255, 255, 255, 0.6)*/
+/* Цвет голубой ссылки в хедере и кнопки заказать #2196F3 */
+/* Цвет белых букв  #FFFFFF*/
+/* Первичный цвет фона #F5F5F5 */
+/* Вторичный цвет фона #F5F4FA */
+/* Цвет подвала #2F303A */
 body {
     background-color:#F5F5F5;    
-    color:#757575;
+    color:var(--secondary-text-color);
 }
 /* Убирает маркет в списках */
 .list {
@@ -10,30 +28,27 @@ body {
     color:#000000;
     }
 .logo:hover {
-    color:#2196F3;
+    color:var(--header-link-color);
 }
-/* Цвет основного текста #212121 */
-/* Вторичый цвет текста #757575 */
-/* Цвет ссылок в футере rgba(255, 255, 255, 0.6)*/
-/* Цвет голубой ссылки в хедере и кнопки заказать #2196F3 */
-/* Цвет белых букв  #FFFFFF*/
-/* Первичный цвет фона #F5F5F5 */
-/* Вторичный цвет фона #F5F4FA */
-/* Цвет подвала #2F303A */
+
 .pre-logo {color:#2196F3;}
 /* site-nav */
 .site-nav .link {
-    color:#212121 ;
+    color:var(--headers-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color:#2196F3;
+    color: var(--header-link-color);
 }
 /* Hero */
 .hero-title {
-    color:#FFFFFF;
+    color: var(--white-simbols-color);
 }
 /* Section */
 .section-title {
-    color:#212121;
+    color:var(--headers-color);
+}
+/* Переваги*/
+.feature-list .title {
+color:var(--headers-color);
 }
