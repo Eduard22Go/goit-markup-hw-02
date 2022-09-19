@@ -20,7 +20,7 @@ body {
     background-color:#F5F5F5;    
     color:var(--secondary-text-color);
 }
-/* Убирает маркет в списках */
+/* Убирает маркер в списках */
 .list {
     list-style: none;
 }
@@ -51,4 +51,9 @@ body {
 /* Переваги*/
 .feature-list .title {
 color:var(--headers-color);
+}
+/* Button */
+.button {
+    color:var(--headers-color);
+    background-color: var(header-link-color);
 }
