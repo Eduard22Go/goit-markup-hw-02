@@ -17,11 +17,13 @@
 /* Вторичный цвет фона #F5F4FA */
 /* Цвет подвала #2F303A */
 body {
-    background-color:#F5F5F5;    
+    background-color: var(--primery-background-color);    
     color:var(--secondary-text-color);
 }
 /* Убирает маркер в списках */
-.list {
+.list,
+.feature-list
+{
     list-style: none;
 }
 .logo {
@@ -40,6 +42,9 @@ body {
 .site-nav .link:focus {
     color: var(--header-link-color);
 }
+.site-nav .link.current {
+    color:var(--header-link-color);
+}
 /* Hero */
 .hero-title {
     color: var(--white-simbols-color);
@@ -48,6 +53,7 @@ body {
 .section-title {
     color:var(--headers-color);
 }
+/* Стили для index.html */
 /* Переваги*/
 .feature-list .title {
 color:var(--headers-color);
@@ -55,5 +61,6 @@ color:var(--headers-color);
 /* Button */
 .button {
     color:var(--headers-color);
-    background-color: var(header-link-color);
+    background-color: var(--header-link-color);
 }
+/* Стили для Portfolio */
