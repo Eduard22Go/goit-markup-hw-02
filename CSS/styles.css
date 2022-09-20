@@ -45,6 +45,9 @@ body {
 .site-nav .link.current {
     color:var(--header-link-color);
 }
+.address .phone {
+    color:var(--secondary-text-color);
+}
 /* Hero */
 .hero-title {
     color: var(--white-simbols-color);
@@ -59,8 +62,20 @@ body {
 color:var(--headers-color);
 }
 /* Button */
-.button {
-    color:var(--headers-color);
+.hero button {
+    color: var(--white-simbols-color);
     background-color: var(--header-link-color);
 }
 /* Стили для Portfolio */
+.filter button.current
+{
+    color: var(--white-simbols-color);
+    background-color: var(--header-link-color);    
+}
+.filter button:active,
+.filter button:hover,
+.filter button:focus
+{
+    color: var(--white-simbols-color);
+    background-color: var(--header-link-color);    
+}
