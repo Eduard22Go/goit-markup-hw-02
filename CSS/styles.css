@@ -48,13 +48,28 @@ body {
 .address .phone {
     color:var(--secondary-text-color);
 }
+.address .link:hover,
+.address .link:focus {
+    color: var(--header-link-color);
+}
+.link {
+    text-decoration: none;
+  }
 /* Hero */
 .hero-title {
     color: var(--white-simbols-color);
 }
 /* Section */
-.section-title {
+.section-title,
+.list h3 
+{
     color:var(--headers-color);
+}
+.list h3 {
+    color: var(--headers-color);
+}
+.list p {
+    color: var(--secondary-text-color)  
 }
 /* Стили для index.html */
 /* Переваги*/
@@ -66,16 +81,40 @@ color:var(--headers-color);
     color: var(--white-simbols-color);
     background-color: var(--header-link-color);
 }
+/*Footer*/
+.link.list-adress {
+    color:var(--white-simbols-color);
+}
+.link.list-adress:hover,
+.link.list-adress:focus {
+    color:var(--header-link-color);
+}
+.link.list-mail {
+    color:var(--footer-link-color);
+}
+.link.list-mail:hover,
+.link.list-mail:focus {
+    color:var(--header-link-color);
+}
+.link.list-phone {
+    color:var(--footer-link-color);
+}
+.link.list-phone:hover,
+.link.list-phone:focus {
+    color:var(--header-link-color);
+}
 /* Стили для Portfolio */
 .filter button.current
 {
     color: var(--white-simbols-color);
     background-color: var(--header-link-color);    
 }
-.filter button:active,
 .filter button:hover,
 .filter button:focus
 {
     color: var(--white-simbols-color);
     background-color: var(--header-link-color);    
+}
+.filter button {
+    color:var(--headers-color);
 }
