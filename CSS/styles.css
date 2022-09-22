@@ -19,6 +19,7 @@
 body {
     background-color: var(--primery-background-color);    
     color:var(--secondary-text-color);
+    font-family:'roboto', 'serif', 'verdana', 'tahoma', sans-serif;
 }
 /* Убирает маркер в списках */
 .list,
