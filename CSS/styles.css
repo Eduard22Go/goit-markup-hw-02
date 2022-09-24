@@ -19,7 +19,7 @@
 body {
     background-color: var(--primery-background-color);    
     color:var(--secondary-text-color);
-    font-family:'roboto', 'serif', 'verdana', 'tahoma', sans-serif;
+    font-family:'roboto', 'serif', 'verdana','tahoma', sans-serif;
     letter-spacing: 0.03em;
 }
 /* Убирает маркер в списках */
@@ -40,9 +40,6 @@ body {
 }
 
 .pre-logo {color:#2196F3;}
-button {
-    font-family: inherit;
-}
 
 /* site-nav */
 .site-nav .link {
@@ -76,8 +73,11 @@ color: var(--header-link-color);
 .address .phone {
     color:var(--secondary-text-color);
 }
-.link {
+.link { 
     text-decoration: none;
+}
+.address.list {
+    font-style: normal;
 }
 
 /* Hero */
@@ -90,8 +90,12 @@ color: var(--header-link-color);
     letter-spacing: 1.36;
     text-transform: uppercase;
 }
-/* Button */
-.hero .button {
+/* Button Замовити послугу */
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+.hero button {
     color: var(--white-simbols-color);
     background-color: var(--header-link-color);
     font-weight: 700;
@@ -103,27 +107,8 @@ color: var(--header-link-color);
     letter-spacing: 0.06em;
 }
 
-/* Section */
-.section-title
-{
-    color:var(--headers-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-}
-.command h3 {
-    color:var(--headers-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
-}
-.command p {
-    color: var(--secondary-text-color);  
-}
 /* Стили для index.html */
-/* Особливості*/
+/* Секція Особливості*/
 .feature-list .title {
     color:var(--headers-color);
     font-weight: 700;
@@ -133,6 +118,27 @@ color: var(--header-link-color);
 .feature-list p {
     font-size: 14px;
     line-height: 1.71;
+}
+
+/*Секція Наша команда*/
+.section-title
+{
+    color:var(--headers-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+.emplois h3 {
+    color:var(--headers-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.emplois p {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.19;
 }
 
 /*Footer*/
@@ -158,18 +164,64 @@ color: var(--header-link-color);
     color:var(--header-link-color);
 }
 
-/* Стили для Portfolio */
-.filter button.current
-{
-    color: var(--white-simbols-color);
-    background-color: var(--header-link-color);    
-}
-.filter button:hover,
-.filter button:focus
-{
-    color: var(--white-simbols-color);
-    background-color: var(--header-link-color);    
-}
-.filter button {
+/* Стили для  страницы Portfolio */
+
+/*Секція Фильтр*/
+
+.filter .select {
     color:var(--headers-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62px;
+}
+.filter .select:hover,
+.filter .select:focus {
+    color: var(--white-simbols-color);
+    background-color: var(--header-link-color);    
+}
+
+.filter .current {
+    color: var(--white-simbols-color);
+    background-color: var(--header-link-color);    
+}
+.filter .current:hover,
+.filter .current:focus {
+    color: var(--white-simbols-color);
+    background-color: var(--header-link-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62px;    
+}
+.select.all {
+    width: 73px;
+    height: 38px;
+}
+.select.web {
+    width: 125px;
+    height: 38px;
+}
+.select.dods {
+    width: 112px;
+    height: 38px;
+}
+.select.disain {
+    width: 103px;
+    height: 38px;
+}
+.select.marketing {
+    width: 130px;
+    height: 38px;
+}
+/* Секція Потфоліо */
+.portfolio h3 {
+    color:var(--headers-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio p {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.87;
 }
