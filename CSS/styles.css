@@ -115,7 +115,7 @@ button {
     font-size: 14px;
     line-height: 1.14;
 }
-.feature-list p {
+.feature-list .text {
     font-size: 14px;
     line-height: 1.71;
 }
@@ -129,13 +129,13 @@ button {
     line-height: 1.17;
     text-align: center;
 }
-.emplois h3 {
+.emplois .name {
     color:var(--headers-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
 }
-.emplois p {
+.emplois .text {
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.19;
@@ -213,14 +213,14 @@ button {
     height: 38px;
 }
 /* Секція Потфоліо */
-.portfolio h3 {
+.portfolio .title {
     color:var(--headers-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
-.portfolio p {
+.portfolio .text {
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.87;
