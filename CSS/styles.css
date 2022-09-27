@@ -4,22 +4,25 @@
    --header-link-color: #2196F3;
    --footer-link-color:rgba(255, 255, 255, 0.6);
    --white-simbols-color:#FFFFFF;
-   --primery-background-color:#F5F5F5;
+   --primery-background-color:#FFFFFF;
    --secondary-background-color:#F5F4FA;
    --footer-background-color:#2F303A;
+   --logo-black-color:#000000;
 }
 /* Цвет заголовков - основного текста #212121 */
 /* Вторичый цвет основного текста #757575 */
 /* Цвет ссылок в футере rgba(255, 255, 255, 0.6)*/
 /* Цвет голубой ссылки в хедере и кнопки заказать #2196F3 */
 /* Цвет белых букв  #FFFFFF*/
-/* Первичный цвет фона #F5F5F5 */
+/* Первичный цвет фона #FFFFFF */
 /* Вторичный цвет фона #F5F4FA */
 /* Цвет подвала #2F303A */
+/* Цвет лого черный #000000 */
 body {
     background-color: var(--primery-background-color);    
     color:var(--secondary-text-color);
     font-family:'roboto', 'serif', 'verdana','tahoma', sans-serif;
+    font-size:14px;
     letter-spacing: 0.03em;
 }
 /* Убирает маркер в списках */
@@ -29,7 +32,7 @@ body {
 }
 /*Logo*/
 .logo {
-    color:#000000;
+    color:var(--logo-black-color);
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -39,7 +42,9 @@ body {
     color:var(--header-link-color);
 }
 
-.pre-logo {color:#2196F3;}
+.pre-logo {
+    color:var(--header-link-color);
+}
 
 /* site-nav */
 .site-nav .link {
@@ -58,13 +63,10 @@ body {
 }
 /*address*/
 .address .link {
+    color:var(--secondary-text-color);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14px;
     letter-spacing: 0.02em;   
-}
-.address .link {
-color: var(--header-link-color);
 }
 .address .link:hover,
 .address .link:focus {
@@ -112,11 +114,9 @@ button {
 .feature-list .title {
     color:var(--headers-color);
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
 }
 .feature-list .text {
-    font-size: 14px;
     line-height: 1.71;
 }
 
@@ -163,6 +163,9 @@ button {
 .link.list-phone:focus {
     color:var(--header-link-color);
 }
+.logo .footer-logo {
+    color:var(--white-simbols-color)
+}
 
 /* Стили для  страницы Portfolio */
 
@@ -192,26 +195,7 @@ button {
     font-size: 16px;
     line-height: 1.62px;    
 }
-.select.all {
-    width: 73px;
-    height: 38px;
-}
-.select.web {
-    width: 125px;
-    height: 38px;
-}
-.select.dods {
-    width: 112px;
-    height: 38px;
-}
-.select.disain {
-    width: 103px;
-    height: 38px;
-}
-.select.marketing {
-    width: 130px;
-    height: 38px;
-}
+
 /* Секція Потфоліо */
 .portfolio .title {
     color:var(--headers-color);
