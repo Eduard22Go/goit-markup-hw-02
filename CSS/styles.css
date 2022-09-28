@@ -51,7 +51,7 @@ body {
     color:var(--headers-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
@@ -87,12 +87,12 @@ body {
     color: var(--white-simbols-color);
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
-    letter-spacing: 1.36;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
 }
-/* Button Замовити послугу */
+/* Hero Button Замовити послугу */
 button {
     font-family: inherit;
     cursor: pointer;
@@ -113,6 +113,7 @@ button {
 /* Секція Особливості*/
 .feature-list .title {
     color:var(--headers-color);
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
 }
@@ -169,13 +170,13 @@ button {
 
 /* Стили для  страницы Portfolio */
 
-/*Секція Фильтр*/
+/*Кнопки Фильтр*/
 
 .filter .select {
     color:var(--headers-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.62px;
+    line-height: 1.62;
 }
 .filter .select:hover,
 .filter .select:focus {
@@ -193,7 +194,7 @@ button {
     background-color: var(--header-link-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.62px;    
+    line-height: 1.62;    
 }
 
 /* Секція Потфоліо */
